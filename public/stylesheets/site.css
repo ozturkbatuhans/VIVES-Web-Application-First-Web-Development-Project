@@ -1,0 +1,158 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    max-width: 1470px;
+}
+
+.banner {
+    display: block;
+    background-size: cover;
+    background-color: lightgrey;
+    padding: 100px 0;
+}
+
+.research {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+.banner.banner-programmes {
+    background-image: url('../images/banner-opleidingswijzer.png');
+}
+
+.banner-content {
+    color: white;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.1875rem;
+}
+
+h3 {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    
+}
+
+a {
+    transition: all .2s linear;
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+.content-title {
+    margin: 0;
+}
+
+.page {
+    margin-top: 50px;
+}
+
+.card-training {
+    border-bottom: 1px solid #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.card-training-description {
+    font-size: .875rem;
+}
+
+.card-training-bottom {
+    padding-top: 30px;
+    margin-top: auto;
+    display: flex;
+}
+
+.button {
+    display: inline-flex;
+    transition: all .2s linear;
+    line-height: 1.15 !important;
+    cursor: pointer;
+}
+
+.button.button-default {
+    text-transform: uppercase;
+    border-radius: 4px;
+    color: #fff;
+    background: #1e1e1e;
+    font-weight: 500;
+    padding: 11px 22px;
+    letter-spacing: .3px;
+}
+
+nav {
+    display: block;
+    max-width: 100%;
+    height: 85px;
+    align-content: center;
+}
+.menu.menu-right {
+    float: right;
+}
+ul.menu > li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 30px;
+}
+ul.menu > li:last-child{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 0 5px 30px;
+}
+
+footer {
+    min-height: 150px;
+    padding: 30px 0;
+    border-top: 2px solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row > .col {
+    padding: 0 15px;
+}
+
+.article {
+    display: flex;
+    flex-grow: 3 2;
+
+}
+.article-content {
+    padding: 30px;
+}
+
+.article-content h2 {
+    margin-left: -70px;
+}
+
+
+p {
+    line-height: 1.6;
+}
+
+.is-active {
+    font-weight: bolder;
+}

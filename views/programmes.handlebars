@@ -1,0 +1,43 @@
+<header class="banner banner-programmes">
+    <div class="banner-content">
+        <div class="container">
+            <h3 class="content-title">Je kan zoveel worden</h3>
+            <h1 class="content-title">Vind de opleiding die bij je past</h1>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="page">
+        <div class="page-content">
+            <div class="container" id="programmes-container">
+                 {{#each programmes}}
+                <div class="card-training">
+                    <div class="card-training-container">
+                        <header class="card-training-header">
+                            <div class="card-training-title">
+                                <a href="/opleidingen/{{slug}}">
+                                    <h3>
+                                       {{title}}
+                                    </h3>
+                                </a>
+                            </div>
+                        </header>
+                        <div class="card-training-description">
+                            <p>
+                                {{description}}
+                            </p>
+                            <p>
+                                <small>{{tags}}</small>
+                            </p>
+
+                        </div>
+                        <div class="card-training-bottom">
+                            <a href="/opleidingen/{{slug}}" class="button button-default">Meer leren</a>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</main>
